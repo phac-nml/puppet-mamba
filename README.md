@@ -32,7 +32,7 @@ When you decalre this class with the default options, the module installs versio
 ### Installing a different version of mamba
 To configure the version of Mambaforge that should be used, specify the version:
 ```puppet
-mamba {
+class { 'mamba':
     version => '22.11.1-4'
 }
 ```
